@@ -1,0 +1,31 @@
+/* Element Selector : Applies style to all <p> tags in html */
+p{
+    color:chartreuse;
+    background-color: black;
+}
+h2{
+    color: deeppink;
+}
+/* An example of ID Selector : Only apply below style to an element which has id = para2 */
+#para2{
+    color: blueviolet;
+    background-color:gold;
+}
+#para4{
+    color: crimson;
+    background-color: yellow;
+}
+/* Class Selector : Only Apply below style to one or more elements which has applied below class */
+.text-aqua{
+    color: aqua;
+    font-size: large;
+}
+.bg-orange{
+    background-color:goldenrod;
+}
+/* CSS Grouping Selector : When we've to apply same styling to multiple elements then we use this selector */
+nav,footer{
+    background-color: cornflowerblue;
+    color:red;
+    font-size:larger;
+}
