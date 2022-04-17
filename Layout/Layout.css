@@ -1,0 +1,33 @@
+.product{
+    height: 300px;
+    width: 250px;
+    background-color: cornflowerblue;
+    border: 2px dotted red; /* This single statement replaces all the 3 statements written below */
+    /* border-width: 2px;
+    border-style: groove;
+    border-color: crimson; */
+    border-radius: 10px;
+}
+#product3{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(15, 238, 15);
+    border-bottom: 4px dashed purple ;
+    border-right: 4px dotted crimson ;
+    border-left: 4px dotted blue ;
+    border-top: 4px dashed orange ;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#pro{
+    font-size: x-large;
+    font-weight: bolder;
+    color: snow;
+    height: 900px;
+    width: 1200px;
+    background-repeat: no-repeat; /* Doesn't repeat the image in x as well as y axes */
+    border: 2px solid slateblue;
+    background-position: center center; /* We can allign our Background Image anywhere inside border */
+    /* 'top left' alligned is default value for 'background position' */
+    background-image: url('https://images.unsplash.com/photo-1636015348041-cea51783d2ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80');
+}
