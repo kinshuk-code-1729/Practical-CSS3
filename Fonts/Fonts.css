@@ -1,0 +1,16 @@
+p{
+    font-family: 'Oswald', sans-serif; 
+    /* Font Stacking : iterates through the list of family names until it matches an available font that contains a glyph for the character to be rendered. */
+    font-size: 20px; 
+    /* 1px = 1/96th of 1 inch */
+    line-height: 10px;
+}
+h2{
+    border-bottom: 1px solid crimson;
+}
+/* Only Applies style to the text written in span tag */
+span{
+    font-weight: bold;
+    color: chartreuse;
+    font-style: italic;
+}
