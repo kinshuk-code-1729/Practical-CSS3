@@ -1,0 +1,19 @@
+#ProOne{
+    color: coral; /* normal colouring style*/
+}
+#ProTwo{
+    color: rgb(20,100,180); /* rgb : red green blue each having range 0-255 */
+}
+#ProThree{
+    color: #e809e4; /* Hexadecimal Colouring style */
+}
+#p4{
+    color: #00cc00;
+}
+.text-style{
+    background-color: #dfebf0;
+    font-size: 25px;
+    font-family: 'Updock', cursive;
+    font-weight: bold;
+    font-style: oblique;
+}
