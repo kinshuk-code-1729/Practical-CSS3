@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    
+    <!-- These are external CSS Files -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style2.css">
+    
+    <!-- This is an internal CSS -->
+    <style>
+        /* We use !important in internal & external styling to give them preference */
+        p {
+            color: yellow !important;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is an Inline CSS -->
+    <h3 style="border: 3px solid yellow;color: chartreuse; background-color: darkblue;">
+        Hello World from CSS
+    </h3>
+    <!-- By default inline styling takes preference -->
+    <p style="color:aqua; background-color: crimson;">Starting CSS from Scratch</p>
+    
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+    <div>This is a Div Tag</div>
+</body>
+</html>

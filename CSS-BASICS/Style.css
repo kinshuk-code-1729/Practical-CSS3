@@ -1,0 +1,6 @@
+/* p , div gives grouping of selectors */
+p ,div{
+    color: darkblue !important;
+    background-color: chartreuse;
+}
+/* we use !important in external styling to give them preference */
