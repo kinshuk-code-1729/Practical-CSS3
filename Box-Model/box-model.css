@@ -1,0 +1,29 @@
+/* Different ways to apply Padding & Margin in CSS */
+/* We use '*' to apply styling to all the the boxes by default */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 250px;
+    border: 2px solid crimson;
+    background-color: springgreen;
+    padding: 30px 20px; /* y-axis x-axis*/
+    margin: 15px 20px; /* y-axis x-axis */
+    border-radius: 4px;
+    width: 500px;
+    box-sizing: border-box;
+    /* padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding: 50px;
+    padding: 10px 20px 30px 40px; top right bottom left
+    margin-top: 50px;
+    margin-left: 20px;
+    margin: 10px; */
+}
+/* Box-Model-Problem : size of box is not obeying width to be 350px due to margin , padding and border */
+/* To Avoid these we use 'box-sizing' to obey width strictly to be 350px regardless of border , padding & margin */
+/* And so total width will remain same and the content will adjust itself accordingly  on increasing padding , margin or border*/
