@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    border: 2px solid royalblue;
+    margin: auto;
+    background: salmon;
+}
+.item{
+    border: 4px solid red ;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    background: springgreen;
+}
+#Frontend{
+    width: 48%;
+    float: left;
+}
+#Backend{
+    width: 48%;
+    float: right;
+}
+#Database{
+    width: 100%;
+    clear: both;
+    /* float: left; */
+}
+p,h3{
+    text-align: justify;
+}
+h2{
+    margin: auto;
+    width: 217px;
+}
