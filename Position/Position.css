@@ -1,0 +1,27 @@
+.item{
+    border: 3px solid violet;
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+}
+.parent{
+    border: 2px solid yellow;
+    background-color: aqua;
+    height: 2000px;
+}
+
+/* "position: relative" --> allows us to move that element from its normal position */
+/* "position: static" --> follows normal DOM flow */
+/* "position: fixed" --> makes element fixed at certain top/bottom/left/right from browser */
+/* "position: absolute" --> allows us to move that element from its immediate parent */
+#item3{
+    /* position: relative; */
+    /* position: static; */
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    /* bottom: 5px; */
+    /* right: 5px; */
+    top: 5px;
+    /* left: 50px; */
+}
