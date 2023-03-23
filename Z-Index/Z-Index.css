@@ -1,0 +1,24 @@
+.item{
+    border: 2px solid #ff33cc;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+#item1{
+    background-color: cornflowerblue;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+#item2{
+    background-color: rgb(129, 25, 98);
+    position: relative;
+    top: -20px;
+    z-index: 5; /* it only works with position:fixed,sticky,relative,absolute but not with position:static*/
+    /* visibility: hidden;  element hidden but space occupied */
+    /* display: none; element and occupied space both are hidden */
+}
+#item3{background-color: chartreuse;}
+#item4{background-color: rgb(79, 83, 14);}
