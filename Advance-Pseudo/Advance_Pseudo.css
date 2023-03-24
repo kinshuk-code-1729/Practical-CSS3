@@ -1,0 +1,49 @@
+.container{
+    width: 250px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+input[type='email']{
+    border: 4px solid seagreen;
+}
+input[type='submit']{
+    background: none;
+    border: 2px solid violet;
+    padding: 10px;
+}
+a[target]{
+    padding: 10px;
+    font-size: 20px;
+    font-style: oblique;
+    color: deeppink;
+}
+a[target='_self']{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(20, 179, 107);
+}
+li:nth-child(4){
+    color: salmon;
+    font-size: large;
+}
+li:nth-child(2){
+    color: violet;
+    font-size: larger;
+}
+/* Target the even elements where n = 0,1,2.... */
+li:nth-child(2n+0){
+    background-color: navy;
+}
+/* Target the odd elements where n = 0,1,2.... */
+li:nth-child(2n+1){
+    background-color: springgreen;
+}
+/* Alternate Way of specifying even and odd */
+li:nth-child(even){
+    font-style: italic;
+}
+li:nth-child(odd){
+    font-family: fantasy;
+}
