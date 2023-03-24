@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+.container{
+    font-size: 10px;
+    border: 3px solid slateblue;
+    /* width: 300px; */
+    /* height: 640px; */
+    height: 100vh;
+    width: 100vw;
+}
+#one{
+    /* font-size: 2em; 2em = 2 X Size of immediate parent = 2 X 10 = 20px */
+    /* padding: 3em; */
+}
+#two{
+    /* font-size: 3rem; Calculates based on root html element : 3rem = 3 X HTML = 3 X 20 = 60px */
+    /* padding: 2rem; Calculates based on root html element : 2rem = 2 X HTML = 2 X 20 = 40px */
+}
