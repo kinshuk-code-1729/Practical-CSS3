@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 25px 12px;
+    margin: 25px 12px;
+    background-color: darkturquoise;
+    
+}
+.card-top{
+    /* box-shadow: -6px -6px 10px 10px violet; offset-y-axis offset-x-axis blur-radius spread-radius color */
+    box-shadow: -6px -7px 5px 5px  rgba(26, 156, 21, 0.5); /* α --> how dark the color is */
+    box-shadow: 15px 10px steelblue, 20px 25px crimson;
+}
+.card-bottom{
+    /* shadow on bottom outside */
+    /* box-shadow: 6px 6px 10px yellowgreen; offset-y-axis offset-x-axis blur-radius color */
+    /* shadow on bottom inside */
+    box-shadow: inset -6px -6px 10px yellowgreen; /* 2-color shadow */
+}
+.card h2{
+    text-shadow: 5px 5px 2px rgb(83, 72, 72);
+    text-shadow: -5px -5px -2px rgb(83, 72, 72);
+}
