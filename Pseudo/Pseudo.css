@@ -1,0 +1,33 @@
+.container{
+    width: 650px;
+    margin: 20px auto;
+    border: 3px solid seagreen;
+    border-radius: 15px;
+    padding: 20px;
+    background: sandybrown;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    background-color: salmon;
+}
+a:active{
+    background-color: seagreen;
+}
+a:hover{
+    background-color: violet;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.btn{
+    background-color: chartreuse;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: crimson;
+}
