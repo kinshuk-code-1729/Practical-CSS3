@@ -1,0 +1,25 @@
+h2{
+    background-color: coral;
+    color: maroon;
+    font-weight: bold;
+    text-align: center;
+}
+/* Below is targeting all those <p> tags which are any level child of <div> */
+/* div p{
+    background-color: blueviolet;
+    color: aliceblue;
+} */
+/* Below is targeting all those <p> tags which are any level child of <div> & any levl child od <li> */
+/* div li p{
+    background-color: blueviolet;
+    color: aliceblue;
+} */
+/* Below is targeting only those <p> tags which are direct child of <div> */
+/* div > p{
+    background-color: blueviolet;
+    color: aliceblue;
+} */
+/* Below is targeting only those <p> tags which are direct sibling of <div> OR <p> is right after <div> */
+div + p{
+    background-color: goldenrod;
+}
